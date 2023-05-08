@@ -2,6 +2,14 @@ import Link from "next/link";
 import React from "react";
 import Logo from "./Logo";
 import { useRouter } from "next/router";
+import {
+  TwitterIcon,
+  DribbbleIcon,
+  GithubIcon,
+  LinkedInIcon,
+  PinterestIcon,
+} from "./Icons";
+import { motion } from "framer-motion";
 
 const CustomLink = ({ href, title, className = "" }) => {
   const router = useRouter();
@@ -28,22 +36,51 @@ function NavBar() {
         <CustomLink href="/projects" title="Projects" className="mx-4" />
         <CustomLink href="/articles" title="Articles" className="ml-4" />
       </nav>
-      <nav>
-        <Link href="/" target={"_blank"}>
-          T
-        </Link>
-        <Link href="/" target={"_blank"}>
-          T
-        </Link>
-        <Link href="/" target={"_blank"}>
-          T
-        </Link>
-        <Link href="/" target={"_blank"}>
-          T
-        </Link>
-        <Link href="/" target={"_blank"}>
-          T
-        </Link>
+      <nav className="flex items-center justify-center flex-wrap">
+        <motion.a
+          href="https://twitter.com/William80414287"
+          target={"_blank"}
+          whileHover={{ y: -2 }}
+          whileTap={{ scale: 0.9 }}
+          className="w-6 mr-3"
+        >
+          <TwitterIcon />
+        </motion.a>
+        <motion.a
+          href="https://github.com/Willi0t"
+          target={"_blank"}
+          whileHover={{ y: -2 }}
+          whileTap={{ scale: 0.9 }}
+          className="w-6 mx-3"
+        >
+          <GithubIcon></GithubIcon>
+        </motion.a>
+        <motion.a
+          href="https://www.linkedin.com/in/william-sinclair-2bab18153/"
+          target={"_blank"}
+          whileHover={{ y: -2 }}
+          whileTap={{ scale: 0.9 }}
+          className="w-6 mx-3"
+        >
+          <LinkedInIcon></LinkedInIcon>
+        </motion.a>
+        <motion.a
+          href="/"
+          target={"_blank"}
+          whileHover={{ y: -2 }}
+          whileTap={{ scale: 0.9 }}
+          className="w-6 mx-3"
+        >
+          <PinterestIcon></PinterestIcon>
+        </motion.a>
+        <motion.a
+          href="/"
+          target={"_blank"}
+          whileHover={{ y: -2 }}
+          className="w-6 ml-3"
+        >
+          <DribbbleIcon></DribbbleIcon>
+        </motion.a>
       </nav>
       <div className="absolute left-[50%] top-2 transalte-x-[-50%]">
         <Logo />
