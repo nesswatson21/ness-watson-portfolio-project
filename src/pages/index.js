@@ -3,6 +3,9 @@ import Layout from "@/components/Layout";
 import Image from "next/image";
 import profilePic from "../../public/images/profile/profile-pic1 trans.png";
 import AnimatedText from "@/components/AnimatedText";
+import Link from "next/link";
+import { LinkArrow } from "@/components/Icons";
+import Hireme from "@/components/Hireme";
 
 export default function Home() {
   return (
@@ -21,18 +24,39 @@ export default function Home() {
                 className="w-full h-auto"
               />
             </div>
-            <div className="w-1/2">
-              <h1> </h1>
-              <AnimatedText text="Turning Vision Into Reality With Code And Design." />
-              <p>
-                - As a skilled full-stack developer, I am dedicated to turning
-                ideas into innovative web applications. Explore my latest
-                projects and articles, showcasing my expertise in React.js and
-                web development.
+            <div className="w-1/2 flex flex-col items-center self-center">
+              <AnimatedText
+                text="Turning Vision Into Reality With Code And Design."
+                className="!text-6xl"
+              />
+              <p className="my-4 text-base font-medium">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book.
               </p>
+              <div className=" w-80 flex justify-between items-center self-start mt-2">
+                <Link
+                  href="/Resume-light.pdf"
+                  target={"_blank"}
+                  className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg front-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark"
+                  download={true}
+                >
+                  Resume
+                  <LinkArrow className={"w-6 ml-1"} />
+                </Link>
+                <Link
+                  href="mailto:william.sinclair92@gmaik.com"
+                  target={"_blank"}
+                  className="ml-4 text-lg font-medium capitalize text-dark underline border-2 border-solid border-transparent hover:border-dark rounded-lg text-lg front-semibold p-2.5 px-6"
+                >
+                  Contact
+                </Link>
+              </div>
             </div>
           </div>
         </Layout>
+        <Hireme />
       </main>
     </>
   );
