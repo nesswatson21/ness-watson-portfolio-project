@@ -64,23 +64,6 @@ function NavBar() {
         >
           <LinkedInIcon></LinkedInIcon>
         </motion.a>
-        <motion.a
-          href="/"
-          target={"_blank"}
-          whileHover={{ y: -2 }}
-          whileTap={{ scale: 0.9 }}
-          className="w-6 mx-3"
-        >
-          <PinterestIcon></PinterestIcon>
-        </motion.a>
-        <motion.a
-          href="/"
-          target={"_blank"}
-          whileHover={{ y: -2 }}
-          className="w-6 ml-3"
-        >
-          <DribbbleIcon></DribbbleIcon>
-        </motion.a>
       </nav>
       <div className="absolute left-[50%] top-2 transalte-x-[-50%]">
         <Logo />

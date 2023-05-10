@@ -30,10 +30,13 @@ export default function Home() {
                 className="!text-6xl"
               />
               <p className="my-4 text-base font-medium">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
+                Hi, I'm william, a frontend developer with a passion for
+                creating beautiful and responsive web experiences. I specialize
+                in JavaScript, React, and NextJS, and I'm constantly learning
+                new skills to improve my craft. As a dedicated student, I'm
+                eager to apply my knowledge to real-world projects and
+                collaborate with like-minded individuals to create amazing
+                digital products
               </p>
               <div className=" w-80 flex justify-between items-center self-start mt-2">
                 <Link
@@ -48,7 +51,7 @@ export default function Home() {
                 <Link
                   href="mailto:william.sinclair92@gmaik.com"
                   target={"_blank"}
-                  className="ml-4 text-lg font-medium capitalize text-dark underline border-2 border-solid border-transparent hover:border-dark rounded-lg text-lg front-semibold p-2.5 px-6"
+                  className="ml-4 font-medium capitalize text-dark underline border-2 border-solid border-transparent hover:border-dark rounded-lg text-lg front-semibold p-2.5 px-6"
                 >
                   Contact
                 </Link>
