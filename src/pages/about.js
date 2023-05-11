@@ -49,28 +49,29 @@ function about() {
                 biography
               </h2>
               <p className="font-medium text-dark/75 ">
-                "Hello, my name is William amd i currently study front end
+                Hello, my name is William amd i currently study front end
                 development at Hyper Island. My passion lies in creating and
                 designing applications and games that not only look visually
                 appealing but are also intuitive, fun, and engaging for users.
               </p>
               <p className="font-medium my-4 text-dark/75">
-                I've always been curious about how things work, which led me to
-                pursue a degree in development. Over the years, I've honed my
-                skills in HTML, CSS, JavaScript, React, and NextJS through
-                various online courses, workshops, and personal projects..
+                I&apos;ve always been curious about how things work, which led
+                me to pursue a degree in development. Over the years, I&apos;ve
+                honed my skills in HTML, CSS, JavaScript, React, and NextJS
+                through various online courses, workshops, and personal
+                projects..
               </p>
               <p className="font-medium my-4 text-dark/75">
                 As a web developer, I believe that great design is about more
-                than just aesthetics - it's about creating experiences that are
-                intuitive, accessible, and meaningful for users. Whether I'm
-                working on a small website or a complex web application, I
-                always strive to put the user first.
+                than just aesthetics - it&apos;s about creating experiences that
+                are intuitive, accessible, and meaningful for users. Whether
+                I&apos;m working on a small website or a complex web
+                application, I always strive to put the user first.
               </p>
               <p className="font-medium my-4 text-dark/75">
-                I'm excited about the opportunities that lie ahead and look
+                I&apos;m excited about the opportunities that lie ahead and look
                 forward to contributing my skills and passion to create
-                innovative digital solutions."
+                innovative digital solutions.
               </p>
             </div>
             <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8">
