@@ -134,7 +134,7 @@ function projects() {
               <FeaturedProject
                 title="My very first webpage"
                 img={project4}
-                summary="this was my very first webpage. i wanted to showcase this becouse im still proud of the design i made for just justing HTML and CSS."
+                summary="this was my very first webpage. i wanted to showcase this becouse im still proud of the design i made by justing HTML and CSS."
                 link="https://bucolic-tarsier-4e2594.netlify.app/"
                 type="Featured Project"
                 githubLink="https://github.com/Willi0t/scandinavia"
