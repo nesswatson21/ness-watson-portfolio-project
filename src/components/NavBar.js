@@ -42,7 +42,7 @@ function NavBar() {
           target={"_blank"}
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
-          className="w-6 mr-3"
+          className="w-7 mr-3"
         >
           <TwitterIcon />
         </motion.a>
@@ -51,7 +51,7 @@ function NavBar() {
           target={"_blank"}
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
-          className="w-6 mx-3"
+          className="w-7 mx-3"
         >
           <GithubIcon></GithubIcon>
         </motion.a>
@@ -60,7 +60,7 @@ function NavBar() {
           target={"_blank"}
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
-          className="w-6 mx-3"
+          className="w-7 mx-3"
         >
           <LinkedInIcon></LinkedInIcon>
         </motion.a>

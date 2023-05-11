@@ -42,10 +42,7 @@ function about() {
       </Head>
       <main className="flex w-full flex-col items-center justify-center">
         <Layout className="pt-16">
-          <AnimatedText
-            text="Passion fuels purpose!"
-            className="mb-20 text-8xl "
-          />
+          <AnimatedText text="Passion fuels purpose!" className="mb-20" />
           <div className="grid w-full grid-cols-10 gap-16">
             <div className="col-span-3 flex flex-col items-start justify-start">
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75">
@@ -59,8 +56,8 @@ function about() {
               </p>
               <p className="font-medium my-4 text-dark/75">
                 I've always been curious about how things work, which led me to
-                pursue a degree in computer science. Over the years, I've honed
-                my skills in HTML, CSS, JavaScript, React, and NextJS through
+                pursue a degree in development. Over the years, I've honed my
+                skills in HTML, CSS, JavaScript, React, and NextJS through
                 various online courses, workshops, and personal projects..
               </p>
               <p className="font-medium my-4 text-dark/75">
