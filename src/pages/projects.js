@@ -107,7 +107,7 @@ function projects() {
                 title="My Portfolio"
                 img={project1}
                 summary="I wanted to create a site that showcased my skills and projects in a clean and modern way. With NextJS, I was able to build a fast and responsive site that highlights my work and experience. Take a look around and feel free to reach out if you have any questions!"
-                link="/"
+                link="/https://darling-cupcake-0b1da6.netlify.app/projects"
                 type="Featured Project"
                 githubLink="https://github.com/Willi0t/my-portfolio"
               />
@@ -146,7 +146,7 @@ function projects() {
                 img={project5}
                 link="https://jovial-moonbeam-d7fc97.netlify.app/"
                 type="Featured Project"
-                githubLink="/https://github.com/munnizashah/HyperBattle"
+                githubLink="https://github.com/munnizashah/HyperBattle"
               />
             </div>
             <div className="col-span-6">
