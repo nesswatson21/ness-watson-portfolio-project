@@ -1,4 +1,4 @@
-# My Portfolio Website using Nextjs, Tailwind CSS and Framer-motion
+# My Portfolio Website using Nextjs, Tailwind CSS and Framer-motion🌟
 
 [Nextjs Portfolio Website](https://devdreaming.com//videos/nextjs-tutorial-build-portfolio-tailwind-css-framer-motion)
 
