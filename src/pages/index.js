@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Layout from "@/components/Layout";
 import Image from "next/image";
-import profilePic from "../../public/images/profile/profile-pic1 trans.png";
+import profilePic from "../../public/images/profile/profile-pic1-trans.png";
 import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import { LinkArrow } from "@/components/Icons";
@@ -40,7 +40,7 @@ export default function Home() {
               </p>
               <div className=" w-80 flex justify-between items-center self-start mt-2">
                 <Link
-                  href="/Resume-light.pdf" //"Resume-light.pdf"
+                  href="/dummy.pdf" //"Resume-light.pdf"
                   target={"_blank"}
                   className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg front-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark"
                   download={true}
