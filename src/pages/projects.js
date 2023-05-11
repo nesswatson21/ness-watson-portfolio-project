@@ -5,11 +5,15 @@ import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import Image from "next/image";
 import { GithubIcon } from "@/components/Icons";
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
+import project1 from "../../public/images/projects/my-portfolio-thumbnail.png";
+import project2 from "../../public/images/projects/slack-mockup.png";
+import project3 from "../../public/images/projects/To-do-list-app.png";
+import project4 from "../../public/images/projects/my-first-page.png";
 
 const FeaturedProject = ({ type, title, summary, img, link, githubLink }) => {
   return (
-    <article className="w-full flex items-center justify-between rounded-3xl border border-solid border-dark bg-light shadow-2xl p-12">
+    <article className="w-full flex items-center justify-between relative rounded-br-2xl rounded-3xl border border-solid border-dark bg-light shadow-2xl p-12">
+      <div className="absolute top-0 -right-3 -z-10 w-[100.6%] h-[103%] rounded-[2.5rem] bg-dark rounded-br-3xl" />
       <Link
         href={link}
         target="_blank"
@@ -46,7 +50,8 @@ const FeaturedProject = ({ type, title, summary, img, link, githubLink }) => {
 
 const Project = ({ type, title, summary, img, link, githubLink }) => {
   return (
-    <article className="w-full flex flex-col items-center justify-center rounded-2xl border border-soild border-dark bg-light p-6 relative">
+    <article className="w-full  flex flex-col items-center justify-center rounded-2xl border border-soild border-dark bg-light p-6 relative">
+      <div className="absolute top-0 -right-3 -z-10 w-[101.3%] h-[103%] rounded-[2rem] bg-dark rounded-br-3xl" />
       <Link
         href={link}
         target="_blank"
@@ -94,51 +99,48 @@ function projects() {
             text="Imagination Trumps Knowledge!"
             className=" mb-28 w-[90%]"
           />
-          <div className="grid grid-cols-12 gap-24">
+          <div className="grid grid-cols-12 gap-24 gap-y-32">
             <div className="col-span-12">
               <FeaturedProject
-                title="Crypto Screener Application"
+                title="My Portfolio"
                 img={project1}
                 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
                 link="/"
                 type="Featured Project"
-                githubLink="/"
+                githubLink="https://github.com/Willi0t/my-portfolio"
               />
             </div>
             <div className="col-span-6">
               <Project
-                title="Crypto Screener Application"
-                img={project1}
-                link="/"
+                title="Slack recreation"
+                img={project2}
+                link="https://mellifluous-sawine-7134b3.netlify.app/"
                 type="Featured Project"
-                githubLink="/"
+                githubLink="https://github.com/Willi0t/slack2.0"
               />
             </div>
             <div className="col-span-6">
-              {" "}
               <Project
-                title="Crypto Screener Application"
-                img={project1}
-                link="/"
+                title="To-do list app with REST API"
+                img={project3}
+                link="https://todolist-fullstack.netlify.app/"
                 type="Featured Project"
-                githubLink="/"
+                githubLink="https://github.com/app-HI/todolist-pernstack"
               />
             </div>
             <div className="col-span-12">
-              {" "}
               <FeaturedProject
-                title="Crypto Screener Application"
-                img={project1}
+                title="My very first webpage"
+                img={project4}
                 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
-                link="/"
+                link="https://bucolic-tarsier-4e2594.netlify.app/"
                 type="Featured Project"
-                githubLink="/"
+                githubLink="https://github.com/Willi0t/scandinavia"
               />
             </div>
             <div className="col-span-6">
-              {" "}
               <Project
-                title="Crypto Screener Application"
+                title="arcade fighter with Hyper Island theme"
                 img={project1}
                 link="/"
                 type="Featured Project"
@@ -146,7 +148,6 @@ function projects() {
               />
             </div>
             <div className="col-span-6">
-              {" "}
               <Project
                 title="Crypto Screener Application"
                 img={project1}

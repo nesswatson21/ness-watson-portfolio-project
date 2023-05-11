@@ -43,7 +43,7 @@ function about() {
       <main className="flex w-full flex-col items-center justify-center">
         <Layout className="pt-16">
           <AnimatedText text="Passion fuels purpose!" className="mb-20" />
-          <div className="grid w-full grid-cols-10 gap-16">
+          <div className="grid w-full grid-cols-9 gap-16">
             <div className="col-span-3 flex flex-col items-start justify-start">
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75">
                 biography
@@ -73,7 +73,7 @@ function about() {
                 innovative digital solutions."
               </p>
             </div>
-            <div className="col-span-4 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8">
+            <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8">
               <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark" />
               <Image
                 src={profilePic}
@@ -82,7 +82,7 @@ function about() {
               />
             </div>
             <div className="col-span-3 flex flex-col items-center justify-between">
-              <div className="flex flex-col items-end justify-center">
+              <div className="flex flex-col items-end justify-end">
                 <span className="iniline-block text-7xl font-bold">
                   <AnimatedNumbers value={2} />+
                 </span>
@@ -92,7 +92,7 @@ function about() {
               </div>
               <div className="flex flex-col items-end justify-center">
                 <span className="iniline-block text-7xl font-bold">
-                  <AnimatedNumbers value={5} />+
+                  <AnimatedNumbers value={6} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75">
                   projects completed
