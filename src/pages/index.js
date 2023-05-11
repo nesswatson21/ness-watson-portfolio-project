@@ -40,7 +40,7 @@ export default function Home() {
               </p>
               <div className=" w-80 flex justify-between items-center self-start mt-2">
                 <Link
-                  href="/dummy.pdf" //"Resume-light.pdf"
+                  href="/Resume-light.pdf" //"Resume-light.pdf"
                   target={"_blank"}
                   className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg front-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark"
                   download={true}
