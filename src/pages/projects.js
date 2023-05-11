@@ -9,6 +9,8 @@ import project1 from "../../public/images/projects/my-portfolio-thumbnail.png";
 import project2 from "../../public/images/projects/slack-mockup.png";
 import project3 from "../../public/images/projects/To-do-list-app.png";
 import project4 from "../../public/images/projects/my-first-page.png";
+import project5 from "../../public/images/projects/my-fighter.png";
+import project6 from "../../public/images/projects/weather-app.png";
 
 const FeaturedProject = ({ type, title, summary, img, link, githubLink }) => {
   return (
@@ -104,7 +106,7 @@ function projects() {
               <FeaturedProject
                 title="My Portfolio"
                 img={project1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
+                summary="I wanted to create a site that showcased my skills and projects in a clean and modern way. With NextJS, I was able to build a fast and responsive site that highlights my work and experience. Take a look around and feel free to reach out if you have any questions!"
                 link="/"
                 type="Featured Project"
                 githubLink="https://github.com/Willi0t/my-portfolio"
@@ -132,7 +134,7 @@ function projects() {
               <FeaturedProject
                 title="My very first webpage"
                 img={project4}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
+                summary="this was my very first webpage. i wanted to showcase this becouse im still proud of the design i made for just justing HTML and CSS."
                 link="https://bucolic-tarsier-4e2594.netlify.app/"
                 type="Featured Project"
                 githubLink="https://github.com/Willi0t/scandinavia"
@@ -141,19 +143,19 @@ function projects() {
             <div className="col-span-6">
               <Project
                 title="arcade fighter with Hyper Island theme"
-                img={project1}
-                link="/"
+                img={project5}
+                link="https://jovial-moonbeam-d7fc97.netlify.app/"
                 type="Featured Project"
-                githubLink="/"
+                githubLink="/https://github.com/munnizashah/HyperBattle"
               />
             </div>
             <div className="col-span-6">
               <Project
                 title="Crypto Screener Application"
-                img={project1}
-                link="/"
+                img={project6}
+                link="https://illustrious-dolphin-aefc72.netlify.app/"
                 type="Featured Project"
-                githubLink="/"
+                githubLink="https://github.com/Willi0t/weather"
               />
             </div>
           </div>
