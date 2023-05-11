@@ -4,7 +4,7 @@
 
 ### Images of The Portfolio Website:
 
-![](public/images/readMe/screenshot-about.png)
+![](public/images/readMe/screenshot-home.png)
 ![](public/images/readMe/screenshot-about.png)
 
 ### Resources Used in This Project
