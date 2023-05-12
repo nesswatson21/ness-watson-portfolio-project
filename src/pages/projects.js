@@ -151,7 +151,7 @@ function projects() {
             </div>
             <div className="col-span-6">
               <Project
-                title="Crypto Screener Application"
+                title="Weather app"
                 img={project6}
                 link="https://illustrious-dolphin-aefc72.netlify.app/"
                 type="Featured Project"
