@@ -4,7 +4,7 @@ import Head from "next/head";
 import React, { useEffect, useRef } from "react";
 import profilePic from "../../public/images/profile/profile-pic.webp";
 import Image from "next/image";
-import { spring, useInView, useMotionValue, useSpring } from "framer-motion";
+import { useInView, useMotionValue, useSpring } from "framer-motion";
 import Skills from "@/components/Skills";
 import Experiance from "@/components/Experiance";
 import Education from "@/components/Education";

@@ -117,7 +117,7 @@ function projects() {
                 title="Slack recreation"
                 img={project2}
                 link="https://mellifluous-sawine-7134b3.netlify.app/"
-                type="Featured Project"
+                type="Project"
                 githubLink="https://github.com/Willi0t/slack2.0"
               />
             </div>
@@ -126,7 +126,7 @@ function projects() {
                 title="To-do list app with REST API"
                 img={project3}
                 link="https://todolist-fullstack.netlify.app/"
-                type="Featured Project"
+                type="Project"
                 githubLink="https://github.com/app-HI/todolist-pernstack"
               />
             </div>
@@ -145,7 +145,7 @@ function projects() {
                 title="arcade fighter with Hyper Island theme"
                 img={project5}
                 link="https://jovial-moonbeam-d7fc97.netlify.app/"
-                type="Featured Project"
+                type="Project"
                 githubLink="https://github.com/munnizashah/HyperBattle"
               />
             </div>
@@ -154,7 +154,7 @@ function projects() {
                 title="Weather app"
                 img={project6}
                 link="https://illustrious-dolphin-aefc72.netlify.app/"
-                type="Featured Project"
+                type="Project"
                 githubLink="https://github.com/Willi0t/weather"
               />
             </div>
