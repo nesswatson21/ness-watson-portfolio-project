@@ -2,7 +2,7 @@ import AnimatedText from "@/components/AnimatedText";
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import React, { useEffect, useRef } from "react";
-import profilePic from "../../public/images/profile/profile-pic.jpg";
+import profilePic from "../../public/images/profile/profile-pic.webp";
 import Image from "next/image";
 import { spring, useInView, useMotionValue, useSpring } from "framer-motion";
 import Skills from "@/components/Skills";
@@ -77,7 +77,7 @@ function about() {
             <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8">
               <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark" />
               <Image
-                priority
+                priority={true}
                 src={profilePic}
                 alt="william sinclair"
                 className="w-full h-auto rounded-2xl"
