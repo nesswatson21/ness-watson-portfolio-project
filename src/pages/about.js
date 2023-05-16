@@ -2,7 +2,7 @@ import AnimatedText from "@/components/AnimatedText";
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import React, { useEffect, useRef } from "react";
-import profilePic from "../../public/images/profile/profile-pic.jpg";
+import profilePic from "../../public/images/profile/profile-pic.webp";
 import Image from "next/image";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
 import Skills from "@/components/Skills";
@@ -79,7 +79,7 @@ function about() {
               <Image
                 priority={true}
                 src={profilePic}
-                alt="william sinclair"
+                alt="my profile picture"
                 className="w-full h-auto rounded-2xl"
               />
             </div>
