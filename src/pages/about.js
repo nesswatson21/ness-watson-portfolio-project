@@ -79,7 +79,7 @@ function about() {
               <Image
                 priority={true}
                 src={profilePic}
-                alt="william sinclair"
+                alt="my profile picture"
                 className="w-full h-auto rounded-2xl"
               />
             </div>
