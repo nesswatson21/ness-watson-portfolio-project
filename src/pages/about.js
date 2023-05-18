@@ -77,10 +77,11 @@ function about() {
             <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8">
               <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark" />
               <Image
-                priority={true}
                 src={profilePic}
                 alt="my profile picture"
                 className="w-full h-auto rounded-2xl"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                priority
               />
             </div>
             <div className="col-span-3 flex flex-col items-center justify-between">
