@@ -50,7 +50,7 @@ function Education() {
             type="frontend developer program"
             time="2022-2024"
             place="Hyper Island"
-            info="Relevant courses included HTML CSS, web developement parctises, javascript, React, NextJs, NodeJS, Figma, working agile. Computer Systems Engineering, and Artificial"
+            info="Relevant courses included HTML CSS, web developement parctises, javascript, React, NextJs, NodeJS, Figma, working agile."
           />
           <Details
             type="in depth React course"

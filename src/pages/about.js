@@ -52,7 +52,7 @@ function about() {
                 biography
               </h2>
               <p className="font-medium text-dark/75 ">
-                Hello, my name is William amd i currently study front end
+                Hello, my name is William and I currently study front-end
                 development at Hyper Island. My passion lies in creating and
                 designing applications and games that not only look visually
                 appealing but are also intuitive, fun, and engaging for users.
