@@ -118,7 +118,11 @@ function NavBar() {
       </div>
 
       {isOpen ? (
-        <div className="min-w-[70vw] flex flex-col justify-between z-10 items-center fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-light/70 border border-solid rounded-lg backdrop-blur-md py-32">
+        <motion.div
+          initial={{ scale: 0, opacity: 0, x: "-50%", y: "-50%" }}
+          animate={{ scale: 1, opacity: 1 }}
+          className="min-w-[70vw] flex flex-col justify-between z-10 items-center fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-light/70 rounded-lg backdrop-blur-md py-32"
+        >
           <nav className="flex items-center flex-col justify-center">
             <CustomMobileLink
               href="/"
@@ -146,7 +150,7 @@ function NavBar() {
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
-              className="w-7 mr-3"
+              className="w-7 mr-3 sm:mx-1"
             >
               <TwitterIcon />
             </motion.a>
@@ -155,7 +159,7 @@ function NavBar() {
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
-              className="w-7 mx-3"
+              className="w-7 mx-3 sm:mx-1"
             >
               <GithubIcon></GithubIcon>
             </motion.a>
@@ -164,12 +168,12 @@ function NavBar() {
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
-              className="w-7 mx-3"
+              className="w-7 mx-3 sm:mx-1"
             >
               <LinkedInIcon></LinkedInIcon>
             </motion.a>
           </nav>
-        </div>
+        </motion.div>
       ) : null}
       <div className="absolute left-[50%] top-2 transalte-x-[-50%]">
         <Logo />
