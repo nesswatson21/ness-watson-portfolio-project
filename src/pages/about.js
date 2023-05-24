@@ -77,8 +77,8 @@ function about() {
                 innovative digital solutions.
               </p>
             </div>
-            <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 2xl:col-span-5 xl:col-span-5 lg:order-1 lg:col-span-9 md:order-1 md:col-span-9">
-              <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark" />
+            <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 2xl:col-span-5 xl:col-span-5 lg:order-1 lg:col-span-9 md:order-1 md:col-span-9 md:p-4">
+              <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark md:w-[103%] md:h-[104%]" />
               <Image
                 src={profilePic}
                 alt="my profile picture"
