@@ -28,6 +28,9 @@ module.exports = {
       },
     },
     screens: {
+      "L-infinate": { max: "1535px" },
+      // => @media (max-width: 8000px) { ... }
+
       "2xl": { max: "1535px" },
       // => @media (max-width: 1535px) { ... }
 
