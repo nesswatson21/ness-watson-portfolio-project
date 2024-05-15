@@ -137,7 +137,7 @@ const projects = () => {
                                 title="E-commerce platform"
                                 img={project6}
                                 summary="I created an e-commerce store using Next.js, featuring a user-friendly front end displaying products and a robust admin panel for managing inventory and orders. The store seamlessly integrates both functionalities to ensure a smooth shopping experience for customers and efficient management for administrators."
-                                link="/https://darling-cupcake-0b1da6.netlify.app/projects"
+                                link="https://e-commerce-front-001.netlify.app"
                                 type="Featured Project"
                                 githubLink="https://github.com/Willi0t/ecommerce-front"
                             />
