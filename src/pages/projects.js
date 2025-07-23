@@ -9,7 +9,6 @@ import { motion } from "framer-motion";
 import project1 from "../../public/images/projects/Proj2.jpg";
 import project2 from "../../public/images/projects/slack-mockup.png";
 import project3 from "../../public/images/projects/To-do-list-app.png";
-import project4 from "../../public/images/projects/my-first-page.png";
 import project5 from "../../public/images/projects/my-fighter.png";
 import project6 from "../../public/images/projects/Proj1.jpg";
 
