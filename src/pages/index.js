@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Layout from "@/components/Layout";
 import Image from "next/image";
-import profilePic from "../../public/images/profile/profile-pic1-trans.png";
 import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import { LinkArrow } from "@/components/Icons";
@@ -22,32 +21,26 @@ export default function Home() {
                     <div className="flex items-center justify-between w-full lg:flex-col">
                         <div className="w-1/2 md:w-full">
                             <Image
-                                src={profilePic}
+                                src="/images/profile/ProfilePic.png"
                                 alt="my profile picture"
                                 className="w-full h-auto lg:hidden md:inline-block md:w-full md:pb-[30px]"
                                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
                                 priority
+                                width={500}
+                                height={500}
                             />
                         </div>
                         <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
                             <AnimatedText
-                                text="Turning Vision Into Reality With Code And Design."
+                                text="Turn big ideas into real things using coding and designing."
                                 className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text 6xl md:!text-5xl sm:!text-3xl"
                             />
                             <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
-                                Hi, I&apos;m william, a frontend developer with
-                                a passion for creating beautiful and responsive
-                                web experiences. I specialize in JavaScript,
-                                React, and NextJS, and I&apos;m constantly
-                                learning new skills to improve my craft. As a
-                                dedicated student, I&apos;m eager to apply my
-                                knowledge to real-world projects and collaborate
-                                with like-minded individuals to create amazing
-                                digital products
+                                {"Hi, I'm Ness Watson Tangsang  a frontend developer passionate about building beautiful, responsive, and user friendly websites. I specialize in JavaScript, React, and Next.js, Figma, Firebase and I'm always eager to learn new tools and techniques to grow as a developer. As a dedicated learner, I'm excited to apply my skills to real world projects and collaborate with talented individuals to create impactful digital experiences."}
                             </p>
                             <div className=" w-80 flex justify-between items-center self-start mt-2 lg:self-center">
                                 <Link
-                                    href="/Resume-light.pdf" //"Resume-light.pdf"
+                                    href="/NESS RESUME update.pdf" //"Resume-light.pdf"
                                     target={"_blank"}
                                     className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg front-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark md:p-2 md:px-4 md:text-base"
                                     download={true}
