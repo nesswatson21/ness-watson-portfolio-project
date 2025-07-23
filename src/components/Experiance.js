@@ -59,7 +59,7 @@ function Experiance() {
             company="Hi3G Access AB (TRE)"
             time="2020-Present"
             adress="Stockholm, Sweden"
-            work="In my current role, I'm responsible for a few selected top-priority retail partners. I provide them with anything they need to acquire new customers and help with client relations afterward. I specialize in creating and managing phone switches and helping set up IT environments when the client and retailer do not have the ability or knowledge to do it themselves"
+            work="In my current role, I&apos;m responsible for a few selected top-priority retail partners. I provide them with anything they need to acquire new customers and help with client relations afterward. I specialize in creating and managing phone switches and helping set up IT environments when the client and retailer do not have the ability or knowledge to do it themselves"
           />
           <Details
             companyLink="www.tre.se"
