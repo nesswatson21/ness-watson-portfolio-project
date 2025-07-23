@@ -36,7 +36,7 @@ export default function Home() {
                                 className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text 6xl md:!text-5xl sm:!text-3xl"
                             />
                             <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
-                                {"Hi, I'm Ness Watson Tangsang  a frontend developer passionate about building beautiful, responsive, and user friendly websites. I specialize in JavaScript, React, and Next.js, Figma, Firebase and I'm always eager to learn new tools and techniques to grow as a developer. As a dedicated learner, I'm excited to apply my skills to real world projects and collaborate with talented individuals to create impactful digital experiences."}
+                                {"Hi, I&apos;m Ness Watson Tangsang  a frontend developer passionate about building beautiful, responsive, and user friendly websites. I specialize in JavaScript, React, and Next.js, Figma, Firebase and I&apos;m always eager to learn new tools and techniques to grow as a developer. As a dedicated learner, I&apos;m excited to apply my skills to real world projects and collaborate with talented individuals to create impactful digital experiences."}
                             </p>
                             <div className=" w-80 flex justify-between items-center self-start mt-2 lg:self-center">
                                 <Link

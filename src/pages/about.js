@@ -60,24 +60,24 @@ function about() {
                                 and engaging for users.
                             </p>
                             <p className="font-medium my-4 text-dark/75">
-                                I&apos;ve always been curious about how things
+                                I&#39;ve always been curious about how things
                                 work, which led me to pursue a degree in
-                                development. Over the years, I&apos;ve honed my
+                                development. Over the years, I&#39;ve honed my
                                 skills in HTML, CSS, JavaScript, React, and
                                 NextJS through various online courses,
                                 workshops, and personal projects..
                             </p>
                             <p className="font-medium my-4 text-dark/75">
                                 As a web developer, I believe that great design
-                                is about more than just aesthetics - it&apos;s
+                                is about more than just aesthetics - it&#39;s
                                 about creating experiences that are intuitive,
                                 accessible, and meaningful for users. Whether
-                                I&apos;m working on a small website or a complex
+                                I&#39;m working on a small website or a complex
                                 web application, I always strive to put the user
                                 first.
                             </p>
                             <p className="font-medium my-4 text-dark/75">
-                                I&apos;m excited about the opportunities that
+                                I&#39;m excited about the opportunities that
                                 lie ahead and look forward to contributing my
                                 skills and passion to create innovative digital
                                 solutions.
