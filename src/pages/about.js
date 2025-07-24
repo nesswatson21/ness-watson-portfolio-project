@@ -52,24 +52,18 @@ function about() {
                                 Biography
                             </h2>
                             <p className="font-medium text-dark/75">
-                                Hello, my name is Ness Watson Tangsang and Im Full Stack Developer and My passion lies in creating and designing applications and games that not only look visually appealing but are also intuitive, fun, and engaging for users.
+                                Hello, my name is Ness Watson Tangsang and I&apos;m Full Stack Developer and My passion lies in creating and designing applications and games that not only look visually appealing but are also intuitive, fun, and engaging for users.
                             </p>
                             <p className="font-medium my-4 text-dark/75">
                                 I&apos;ve always been curious about how things
                                 work, which led me to pursue a degree in
-                                development. Over the years, Ive honed my
+                                development. Over the years, I&apos;ve honed my
                                 skills in HTML, CSS, JavaScript, React, and
                                 NextJS through various online courses,
                                 workshops, and personal projects..
                             </p>
                             <p className="font-medium my-4 text-dark/75">
-                                As a web developer, I believe that great design
-                                is about more than just aesthetics - its
-                                about creating experiences that are intuitive,
-                                accessible, and meaningful for users. Whether
-                                Im working on a small website or a complex
-                                web application, I always strive to put the user
-                                first.
+                                As a web developer, I believe that great design is about more than just aesthetics - it&apos;s about creating experiences that are intuitive, accessible, and meaningful for users. Whether I&apos;m working on a small website or a complex web application, I always strive to put the user first.
                             </p>
                             <p className="font-medium my-4 text-dark/75">
                                 Im excited about the opportunities that
