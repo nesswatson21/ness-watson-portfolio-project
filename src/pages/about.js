@@ -66,7 +66,7 @@ function about() {
                                 As a web developer, I believe that great design is about more than just aesthetics - it&apos;s about creating experiences that are intuitive, accessible, and meaningful for users. Whether I&apos;m working on a small website or a complex web application, I always strive to put the user first.
                             </p>
                             <p className="font-medium my-4 text-dark/75">
-                                Im excited about the opportunities that
+                                I&apos;m excited about the opportunities that
                                 lie ahead and look forward to contributing my
                                 skills and passion to create innovative digital
                                 solutions.

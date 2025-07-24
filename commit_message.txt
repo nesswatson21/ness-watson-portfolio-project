@@ -1,1 +1,1 @@
-changing in json
+fix: all unescaped entities in about page
