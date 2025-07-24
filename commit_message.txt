@@ -1,1 +1,1 @@
-fix: image path case in projects.js
+fix: all remaining unescaped entities
