@@ -1,1 +1,1 @@
-feat: updated image formats to PNG in projects.js
+fix: image extensions in projects.js to JPG
