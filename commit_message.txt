@@ -1,1 +1,1 @@
-fix: all remaining unescaped entities
+feat: updated image formats to PNG in projects.js

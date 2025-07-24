@@ -6,11 +6,11 @@ import Link from "next/link";
 import Image from "next/image";
 import { GithubIcon } from "@/components/Icons";
 import { motion } from "framer-motion";
-import project1 from "../../public/images/projects/Proj2.png";
+import project1 from "../../public/images/projects/Proj2.JPG";
 import project2 from "../../public/images/projects/slack-mockup.png";
 import project3 from "../../public/images/projects/To-do-list-app.png";
 import project5 from "../../public/images/projects/my-fighter.png";
-import project6 from "../../public/images/projects/Proj1.png";
+import project6 from "../../public/images/projects/Proj1.JPG";
 
 
 const FramerImage = motion(Image);
