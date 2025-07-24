@@ -52,11 +52,7 @@ function about() {
                                 Biography
                             </h2>
                             <p className="font-medium text-dark/75 ">
-                                Hello, my name is Ness Watson Tangsang and I&apos;m Full Stack Developer and My
-                                passion lies in creating and designing
-                                applications and games that not only look
-                                visually appealing but are also intuitive, fun,
-                                and engaging for users.
+                                Hello, my name is Ness Watson Tangsang and I&apos;m Full Stack Developer and My passion lies in creating and designing applications and games that not only look visually appealing but are also intuitive, fun, and engaging for users.
                             </p>
                             <p className="font-medium my-4 text-dark/75">
                                 I&apos;ve always been curious about how things
