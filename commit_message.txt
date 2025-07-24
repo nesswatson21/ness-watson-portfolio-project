@@ -1,1 +1,1 @@
-initial fixed
+fix: unescaped entity in about page
