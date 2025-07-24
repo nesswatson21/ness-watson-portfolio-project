@@ -1,1 +1,1 @@
-fix: final unescaped entity in about page
+fix: image path case in projects.js
