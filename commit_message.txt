@@ -1,1 +1,1 @@
-fix: unescaped entity in about page
+fix: unescaped entity in index page
