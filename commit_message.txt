@@ -1,1 +1,1 @@
-fix: image extensions in projects.js to JPG
+Initial commit

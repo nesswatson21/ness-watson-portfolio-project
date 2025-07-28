@@ -97,7 +97,7 @@ function NavBar() {
             <TwitterIcon />
           </motion.a>
           <motion.a
-            href="https://github.com/nesswatson21"
+            href="https://github.com/nesswatson21/gemini-cli"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
