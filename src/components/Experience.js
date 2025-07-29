@@ -70,7 +70,7 @@ function Experience() {
             work="Managed end-to-end customer service operations across landline, broadband, and mobile segments, leading a helpdesk team and coordinating with field technicians to ensure timely resolution of high-volume technical issues."
           />
           <Details
-            companyLink="/www.tre.in"
+            companyLink="/#"
             position="Hardware & Network Engineer"
             company="https://bsnl.co.in"
             time="2017/June-2017/Aug"
@@ -78,7 +78,7 @@ function Experience() {
             work="Maintained and supported network infrastructure, resolved LAN/WAN issues, installed CPE for FTTH, conducted cabling, met SLA targets, and provided technical support with regular reporting to the regional BSNL office."
           />
           <Details
-            companyLink="/www.tre.in"
+            companyLink="/#"
             position="Database Administrator (DBA)"
             company="Database Administrator (DBA)"
             work="As a Database Administrator, I installed, configured, and maintained enterprise database systems including Oracle, MySQL, and SQL Server. I ensured high availability through replication and scheduled backups, while also managing performance tuning, query optimization, indexing, and partitioning. I enforced robust security protocols by implementing user access controls, encryption, and auditing. I automated routine maintenance tasks using shell scripts and scheduled jobs, and collaborated closely with developers to design efficient schemas and stored procedures. I handled database migrations, upgrades, and patching during maintenance windows, and maintained detailed documentation, incident logs, and audit reports to ensure compliance and operational continuity."

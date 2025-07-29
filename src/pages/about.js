@@ -58,7 +58,7 @@ function about() {
                                 I&apos;ve always been curious about how things
                                 work, which led me to pursue a degree in
                                 development. Over the years, I&apos;ve honed my
-                                skills in HTML, CSS, JavaScript, React, and
+                                skills in HTML, CSS, JavaScript, Python, React, and
                                 NextJS through various online courses,
                                 workshops, and personal projects..
                             </p>

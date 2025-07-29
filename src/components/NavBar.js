@@ -97,7 +97,7 @@ function NavBar() {
             <TwitterIcon />
           </motion.a>
           <motion.a
-            href="https://github.com/nesswatson21/gemini-cli"
+            href="#"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -106,7 +106,7 @@ function NavBar() {
             <GithubIcon></GithubIcon>
           </motion.a>
           <motion.a
-            href="https://www.linkedin.com/learning/building-a-project-with-the-chatgpt-api/introduction-to-the-openai-api?upsellOrderOrigin=guest_homepage-basic_guest_nav_menu_learning&trk=guest_homepage-basic_guest_nav_menu_learning"
+            href="#"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -146,8 +146,8 @@ function NavBar() {
           </nav>
           <nav className="flex items-center justify-center flex-wrap mt-2">
             <motion.a
-              href="https://twitter.com/William80414287"
-              target={"_blank"}
+            href="https://x.com/nesswatson23"
+            target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
               className="w-7 mr-3 sm:mx-1"
@@ -155,7 +155,7 @@ function NavBar() {
               <TwitterIcon />
             </motion.a>
             <motion.a
-              href="https://github.com/Willi0t"
+              href="#"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
@@ -164,7 +164,7 @@ function NavBar() {
               <GithubIcon></GithubIcon>
             </motion.a>
             <motion.a
-              href="https://www.linkedin.com/in/william-sinclair-2bab18153/"
+              href="#"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
