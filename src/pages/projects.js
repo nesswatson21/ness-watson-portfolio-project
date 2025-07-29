@@ -157,7 +157,7 @@ const projects = () => {
                                 img={project3}
                                 link="https://todolist-fullstack.netlify.app/"
                                 type="Project"
-                                githubLink="https://github.com/app-HI/todolist-pernstack"
+                                githubLink="https://todolist-fullstack.netlify.app/"
                             />
                         </div>
                         <div className="col-span-12">
@@ -176,7 +176,7 @@ const projects = () => {
                                 img={project5}
                                 link="https://jovial-moonbeam-d7fc97.netlify.app/"
                                 type="Project"
-                                githubLink="https://github.com/munnizashah/HyperBattle"
+                                githubLink="#"
                             />
                         </div>
                         
