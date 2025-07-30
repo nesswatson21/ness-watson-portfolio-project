@@ -50,7 +50,7 @@ function Education() {
             type="Bachelors of Science in Information Technology"
             time="2013"
             place="AU,Tamil Nadu"
-            info="Studied core subjects such as Networking, Database Management, Web Development, and Operating Systems, while completing hands-on projects in hardware configuration, software development, and network design; also learned French as part of the curriculum, focusing on basic communication, reading, and technical vocabulary."
+            info="Studied core subjects such as AI Algorithms, Networking, Database Management, Web Development, and Operating Systems, while completing hands-on projects in hardware configuration, software development, and network design; also learned French as part of the curriculum, focusing on basic communication, reading, and technical vocabulary."
           />
           <Details
             type="Hardware Course and PC maintenance"
@@ -59,7 +59,7 @@ function Education() {
             info="The Hardware and PC Maintenance course provides foundational and advanced knowledge in assembling, troubleshooting, and maintaining desktop and laptop systems. It covers key hardware components such as motherboards, CPUs, RAM, hard drives, power supplies, and peripherals. The course includes training in BIOS/UEFI configuration, installing and upgrading operating systems, diagnosing hardware faults, and performing preventive maintenance. Learners also gain exposure to basic networking concepts, virus removal, data backup solutions, and system optimization techniques"
           />
           <Details
-            type="Arena Animation, Shillong & CEH Course from Symantec"
+            type="Arena Animation, & CEH Course from Symantec"
             time="2010"
             place="Shillong"
             info="Completed certified training in VFX, Graphic Design, Motion Graphics, Video Editing, Photography, and Web & Graphics Design, gaining hands-on experience with tools like Autodesk Maya, Adobe Photoshop, After Effects, Illustrator, Premiere Pro , Davinci Studio Pro, Blender, Unreal Engine. Worked on animation clips, visual composition projects, logo design, and responsive web layouts while learning the fundamentals of storytelling, 3D modeling, lighting, texturing, and compositing. Participated in workshops and peer reviews to enhance both creative thinking and technical execution & I am a tech-driven professional with hands-on experience in networking, system hardware, and cybersecurity. Alongside my background in IT infrastructure and multimedia, I have pursued specialized training as a Certified Ethical Hacker (CEH) to deepen my knowledge in ethical hacking, vulnerability assessment, and digital defense strategies. This certification has equipped me to think like a hacker to protect systems, secure data, and contribute to a safer digital environment.
