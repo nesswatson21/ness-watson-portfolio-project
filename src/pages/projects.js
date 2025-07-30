@@ -11,6 +11,7 @@ import project2 from "../../public/images/projects/slack-mockup.png";
 import project3 from "../../public/images/projects/To-do-list-app.png";
 import project5 from "../../public/images/projects/my-fighter.png";
 import project6 from "../../public/images/projects/Proj1.png";
+import project7 from "../../public/images/projects/dsp.png";
 
 
 const FramerImage = motion(Image);
@@ -141,7 +142,20 @@ const projects = () => {
                                 type="Featured Project"
                                 githubLink="https://rsvper.netlify.app/"
                             />
+                        </div>   
+                          <div className="col-span-6 sm:col-span-12">
+                            <Project
+                                title="Audio DSP with Faust & Synth Plugin Exploration"
+                                img={project7}
+                                summary="An exploration of digital signal processing (DSP) using Faust, a functional programming language for audio. This project involved creating modular signal processing tools and real-time audio effects, with inspiration from professional-grade synthesizers."
+                                link="https://faustide.grame.fr/?autorun=1&voices=0&name=untitled1&inline=Ly8gU3ludGggY3JlYXRlZCBieSBOaWV6dGFyb295IFRhbmdzYW5nDQovLyBBIGJhc2ljIHNpbmUgd2F2ZSBzeW50aGVzaXplciB3aXRoIGFkanVzdGFibGUgZnJlcXVlbmN5IGFuZCB2b2x1bWUNCi8vIEZ1bmN0aW9uYWwgQXVkaW8gU3RyZWFtICBTeW50aCBieSBOaWV6dGFyb295IFRhbmdzYW5nDQovLyBEZXZlbG9wZWQgYnkgTmllenRhcm9veSBUYW5nc2FuZw0KLy8gU3ludGggZGVzaWduIGluc3BpcmVkIGJ5IFNlcnVtLCBTeWxlbnRoMSwgVlBTIEF2ZW5nZXIsIFJlZnggTmV4dXMgNQ0KLy8gU2ltcGxlIHNpbmUgd2F2ZSBzeW50aGVzaXplciB3aXRoIGZyZXF1ZW5jeSBhbmQgdm9sdW1lIGNvbnRyb2wNCi8vIEluc3BpcmVkIGJ5IFNlcnVtLCBTeWxlbnRoMSwgVlBTIEF2ZW5nZXIsIFJlZnggTmV4dXMgNQ0KLy8gQnkgTmllenRhcm9veSBUYW5nc2FuZw0KDQpkZWNsYXJlIG5hbWUgIlNpbmVTeW50aCI7DQpkZWNsYXJlIHZlcnNpb24gIjEuMCI7DQpkZWNsYXJlIGF1dGhvciAiTmllenRhcm9veSBUYW5nc2FuZyI7DQpkZWNsYXJlIGxpY2Vuc2UgIk1JVCI7DQoNCi8vIFNpbXBsZSBTaW5lIFN5bnRoIC0gTWluaW1hbCB2ZXJzaW9uDQppbXBvcnQoInN0ZGZhdXN0LmxpYiIpOw0KDQpmcmVxID0gaHNsaWRlcigiZnJlcVt1bml0Okh6XSIsIDQ0MCwgMjAsIDIwMDAsIDAuMDEpOw0KZ2FpbiA9IGhzbGlkZXIoInZvbHVtZSIsIDAuNSwgMCwgMSwgMC4wMSk7DQoNCnByb2Nlc3MgPSBvcy5vc2MoZnJlcSkgKiBnYWluOw0KLy8gUHJvamVjdCBpcyB1bmRlciBQcm9jZXNzLi4uLg%3D%3D"
+                                type="Sound synthesis and Audio processing"
+                                githubLink=""
+                            />
                         </div>
+
+
+
                         <div className="col-span-6 sm:col-span-12">
                             <Project
                                 title="Slack recreation"
