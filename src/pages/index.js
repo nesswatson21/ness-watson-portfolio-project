@@ -41,10 +41,9 @@ I am a quick learner & have a good problem solving mindset. I am a result orient
                             </p>
                             <div className=" w-80 flex justify-between items-center self-start mt-2 lg:self-center">
                                 <Link
-                                    href="/Ness Watson Resume.pdf" //"Ness Watson Resume.pdf"
+                                    href="/resume"
                                     target={"_blank"}
                                     className="flex items-center bg-light text-dark p-2.5 px-6 rounded-lg text-lg front-semibold hover:bg-dark hover:text-light border-2 border-solid border-transparent hover:border-dark md:p-2 md:px-4 md:text-base"
-                                    download={true}
                                 >
                                     Resume
                                     <LinkArrow className={"w-6 ml-1"} />
