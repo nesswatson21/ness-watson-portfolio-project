@@ -1,1 +1,1 @@
-Fix project details
+Update projects page

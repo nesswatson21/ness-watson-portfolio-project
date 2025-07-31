@@ -57,15 +57,13 @@ function Experience() {
             companyLink="https://aircel.com/"
             position="Aircel Telecom"
             company=" https://aircel.com/ "
-            time="2013"
-            adress="Guwahati, Assam"
+           adress="Guwahati, Assam"
             work="Handled escalated customer issues and ensured SLA (Service-Level Agreement) adherences"
           />
           <Details
             companyLink="https://bsnl.co.in"
-            position="Assistant Manager"
+            position="Sale & Marketing"
             company="https://bsnl.co.in"
-            time="2014-2017"
             adress="📍 Shillong, Meghalaya"
             work="Managed end-to-end customer service operations across landline, broadband, and mobile segments, leading a helpdesk team and coordinating with field technicians to ensure timely resolution of high-volume technical issues."
           />
@@ -73,7 +71,6 @@ function Experience() {
             companyLink="/#"
             position="Hardware & Network Engineer"
             company="https://bsnl.co.in"
-            time="2017/June-2017/Aug"
             adress="📍 Shillong, Meghalaya"
             work="Maintained and supported network infrastructure, resolved LAN/WAN issues, installed CPE for FTTH, conducted cabling, met SLA targets, and provided technical support with regular reporting to the regional BSNL office."
           />
