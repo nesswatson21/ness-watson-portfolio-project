@@ -35,13 +35,13 @@ export default function Home() {
                                 className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text 6xl md:!text-5xl sm:!text-3xl"
                             />
                             <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
-                                                                Hi, I&apos;m Ness Watson Tangsang, I am a Frontend Developer who&apos;s passionate & ethusiastic about creating web application. I am into web developement from past 2 years and I have experience working on serveral real world end-to-end project using HTML, CSS, Javascript, Python,  React JS, Typescript, Redux, Web3.js ,React Context API & Firebase . I have done my graduation in Bachelors of Science in Information Technology. And I have internships experience as a React Developer in Blockchain Technology.
+                                                                Hello, I&apos;m Ness Watson Tangsang, I am a Frontend Developer who&apos;s passionate & ethusiastic about creating web application. I am into web developement from past 2 years and I have experience working on serveral real world end-to-end project using HTML, CSS, Javascript, Python,  React JS, Typescript, Redux, Web3.js ,React Context API & Firebase . I have done my graduation in Bachelors of Science in Information Technology. And I have internships experience as a React Developer in Blockchain Technology.
 
 I am a quick learner & have a good problem solving mindset. I am a result oriented person and have a always learning attitude. I love to learn new technologies & keep upgrading my skills!🚀
                             </p>
                             <div className=" w-80 flex justify-between items-center self-start mt-2 lg:self-center">
                                 <Link
-                                    href="/resume"
+                                    href="/NESS WATSON RESUME.pdf" //NESS WATSON RESUME.pdf
                                     target={"_blank"}
                                     className="flex items-center bg-light text-dark p-2.5 px-6 rounded-lg text-lg front-semibold hover:bg-dark hover:text-light border-2 border-solid border-transparent hover:border-dark md:p-2 md:px-4 md:text-base"
                                 >
